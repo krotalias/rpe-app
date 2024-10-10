@@ -38,7 +38,8 @@
  * @author {@link https://sketchfab.com/slava Slava Z.}
  * @author Paulo Roma.
  * @since 26/09/2024
- * @see <a href="/cwdc/14-react/vercel/rpe-app/src/App.js">source</a>
+ * @see <a href="../src/App.js">source</a>
+ * @see <a href="../package.json">package.json</a>
  * @see {@link https://www.youtube.com/watch?app=desktop&v=DPl34H2ISsk I wish I knew this before using React Three Fiber}
  * @see {@link https://r3f.docs.pmnd.rs/getting-started/examples R3F Examples}
  */
