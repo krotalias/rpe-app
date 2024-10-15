@@ -160,7 +160,7 @@ function ThreeScene() {
  * Creates a sphere.
  * @param {Object} props information that you pass to a JSX tag.
  * @param {Array<Number>} props.position sphere position.
- * @param {Array<Number>} props.children e.g., material.
+ * @param {Object} props.children e.g., material.
  * @returns {ThreeElements} mesh with a sphere geometry.
  */
 const Sphere = (props) => {

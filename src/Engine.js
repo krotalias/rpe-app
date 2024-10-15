@@ -249,6 +249,7 @@ export function Engine(props) {
     <group
       onDoubleClick={(e) => {
         const part = e.object.parent.name
+        e.stopPropagation()
         setHover(part)
         pton(part)
       }}
