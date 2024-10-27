@@ -17,7 +17,7 @@
  * @author Paulo Roma.
  * @see <a href="../src/Engine.js">source</a>
  * @see {@link https://discourse.threejs.org/t/arcballcontrols-no-gizmos-visible/71229 ArcballControls no gizmos visible}
- * @see <img src="../thumbnail.png" width="256">
+ * @see <iframe title="Engine" src="https://krotalias.github.io/cwdc/13-webgl/examples/three/content/stl.html?file=RPE/RadialPneumaticEngine.glb" style="position: relative; right: 40px; margin-bottom: 0px; transform: scale(0.85); width: 380px; height: 380px"></iframe>
  */
 import { BoxHelper, Box3, Vector3 } from "three"
 import { useRef, useState } from "react"
