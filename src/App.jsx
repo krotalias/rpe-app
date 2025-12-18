@@ -16,16 +16,29 @@
  *    <li>sudo npm install -g jsdoc</li>
  *  </ul>
  *
- *  <li>To run the version with modules and Node.js version {@link https://nodejs.org/en/blog/release/v16.16.0 16}
- *  or {@link https://nodejs.org/en/blog/release/v18.16.0 18}:</li>
+ *  <li>To run the version with modules and Node.js version
+ *     {@link https://nodejs.org/en/blog/release/v18.19.0 18},
+ *     {@link https://nodejs.org/en/blog/release/v20.18.0 20} or
+ *     {@link https://nodejs.org/en/blog/release/v22.11.0 22}:</li>
  *  <ul>
  *    <li>cd rpe-app</li>
+ *    <ul>
+ *      <li>To create the initial {@link https://raw.githubusercontent.com/krotalias/rpe/main/package.json package.json}:</li>
+ *      <ol>
+ *          <li>npm init vite</li>
+ *          <li>yarn add @react-three/fiber</li>
+ *          <li>yarn add @react-three/drei</li>
+ *          <li>yarn add @react-three/postprocessing</li>
+ *          <li>yarn add three</li>
+ *          <li>yarn add leva</li>
+ *      </ol>
+ *    </ul>
  *    <li>{@link https://www.npmjs.com npm} or {@link https://yarnpkg.com yarn} install</li>
- *    <li>{@link https://www.npmjs.com/package/react npm} or {@link https://yarnpkg.com/package/react yarn} start</li>
+ *    <li>{@link https://www.npmjs.com/package/react npm} or {@link https://yarnpkg.com/package/react yarn} run dev</li>
  *  </ul>
  *
  *  <li>To use vercel {@link https://vercel.com/docs/cli cli} to run
- *  vercel {@link https://vercel.com/docs/cli/dev dev} before deploying:</li>
+ *  vercel {@link https://vercel.com/docs/cli/dev dev} before deploying on vercel:</li>
  *  <ul>
  *    <li>cd rpe-app</li>
  *    <li>{@link https://pnpm.io pnpm} i -g vercel or
@@ -33,12 +46,14 @@
  *    <li>{@link https://www.npmjs.com npm} or {@link https://yarnpkg.com yarn} install</li>
  *    <li>{@link https://vercel.com vercel} dev</li>
  *  </ul>
+ *  <li>Alternatively, the {@link https://www.vd-developer.online/blog/vite-react-deploy-github steps} to
+ * {@link https://www.youtube.com/watch?v=Bk28snjHr7c deploy} on github pages.</li>
  * </ul>
  *
  * @author {@link https://sketchfab.com/slava Slava Z.}
  * @author Paulo Roma.
  * @since 26/09/2024
- * @see <a href="../src/App.js">source</a>
+ * @see <a href="../src/App.jsx">source</a>
  * @see <a href="../package.json">package.json</a>
  * @see {@link https://www.youtube.com/watch?app=desktop&v=DPl34H2ISsk I wish I knew this before using React Three Fiber}
  * @see {@link https://r3f.docs.pmnd.rs/getting-started/examples R3F Examples}

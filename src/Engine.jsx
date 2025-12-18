@@ -15,7 +15,7 @@
  * @since 26/09/2024
  * @author {@link https://sketchfab.com/slava Slava Z.}
  * @author Paulo Roma.
- * @see <a href="../src/Engine.js">source</a>
+ * @see <a href="../src/Engine.jsx">source</a>
  * @see {@link https://discourse.threejs.org/t/arcballcontrols-no-gizmos-visible/71229 ArcballControls no gizmos visible}
  * @see <iframe title="Engine" src="https://krotalias.github.io/cwdc/13-webgl/examples/three/content/stl.html?file=RPE/RadialPneumaticEngine.glb" style="position: relative; right: 40px; margin-bottom: 0px; transform: scale(0.85); width: 380px; height: 380px"></iframe>
  */
@@ -111,7 +111,7 @@ export function Engine(props) {
   const boxH = useRef()
   const state = useThree()
   const reset = useRef(false)
-  const { nodes } = useGLTF("/machine-transformed.glb")
+  const { nodes } = useGLTF("./machine-transformed.glb")
   const [hovered, setHover] = useState(null)
   const [config, set, get] = useControls(() => ({
     parts: folder(

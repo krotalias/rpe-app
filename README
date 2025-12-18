@@ -1,0 +1,19 @@
+npm init vite
+
+yarn add @react-three/fiber
+yarn add @react-three/drei
+yarn add @react-three/postprocessing
+yarn add three
+yarn add leva
+
+yarn run dev
+
+Added to eslint.config.js (after { allowConstantExport: true },):
+
+"react/no-unknown-property": ["off", { "ignore": ["JSX"] }],
+
+To deploy in github pages:
+https://www.youtube.com/watch?v=Bk28snjHr7c
+
+If I choose gh-pages as the Branch, I can execute the app, but cannot access the doc. 
+On the other hand, if I choose main as the Branch, I can see the doc, but cannot execute the app.
